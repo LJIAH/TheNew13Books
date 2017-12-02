@@ -1,0 +1,113 @@
+
+html {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+a,a:hover{color:#FFF;text-decoration:none}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: '微软雅黑', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: url("http://13books.oss-cn-shenzhen.aliyuncs.com/bg.jpg");
+}
+
+.container {
+  width:1020px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 250px;
+  width: 1020px;
+  text-align: center;
+  background: url("http://13books.oss-cn-shenzhen.aliyuncs.com/head.png");
+  /*line-height: 500px;*/
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav {
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  /*color: #FFF;*/
+  background: goldenrod;
+}
+
+.nav a {
+  display: block;
+  padding: 0 8px;
+  line-height: inherit;  /*inherit 规定应该从父元素继承 line-height 属性的值。*/
+  cursor: pointer;  /*光标呈现为指示链接的指针（一只手）。*/
+}
+
+.nav_menu {
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.nav_menu-item {
+  display: inline-block; /*行内块元素,以此替代float浮动布局*/
+  position: relative;
+  /*border: 1px solid gray;*/
+}
+
+.nav_menu-item:hover {
+  background-color: #5599AA;
+}
+
+.nav_menu-item:hover .nav_submenu {  /*下拉菜单关键步骤*/
+  display: block;
+}
+
+.nav_submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 160px;
+  background-color: #5599AA;
+}
+
+.nav_submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-top: 5px;
+  text-align: center;
+  /*background-color: #BBD6DD;*/
+  /*border: 1px solid goldenrod;*/
+}
+
+.footer {
+  text-align: center;
+  height: 42px;
+  width: 1020px;
+}
+
+textarea {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #BBD6DD;
+  border: 5px solid goldenrod;
+  line-height: 1.5;
+  width: 1020px;
+  height: 720px;
+  text-align:left;
+  padding: 20px;
+
+}

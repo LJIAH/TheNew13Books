@@ -1,0 +1,18 @@
+{
+  "name": "thenew13books",
+  "version": "1.0.0",
+  "description": "the new 13 books of buddhism",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "linjiahui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "nodemon": "^1.12.1"
+  }
+}

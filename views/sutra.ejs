@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>佛教十三经</title>
+    <link rel="stylesheet" href="../assets/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+
+        <!--引入公共导航模板-->
+        <% include ../public/nav.ejs %>
+
+        <div class="content">
+            <textarea name="" id="" readonly>
+                <%= content %>
+            </textarea>
+        </div>
+
+        <div class="footer">
+            <p>网站版权归githublin@foxmail.com个人所有，如有意见或建议请与作者联系。</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+
+    var header = document.getElementsByClassName('header')[0];
+    header.onclick = function(){
+        window.open("/thenew13books","_self");
+    }
+
+</script>
+</html>
